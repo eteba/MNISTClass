@@ -1,0 +1,10 @@
+MNIST handwritten numbers classifier.
+
+Inputs are .root files in the format created by the 'idx2root' program.
+
+This is an skeleton approach. The network layout and the different training phases
+and parameters are easily adjustable.
+
+I do not provide any testing method, but just a simple ROOT script which randomly
+loads images from the test and returns the response of the network. It is necessary
+to modify the script with the paths of the testing image datasets.
